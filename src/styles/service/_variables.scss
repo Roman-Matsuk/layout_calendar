@@ -1,0 +1,17 @@
+$days:(
+  "mon": 1,
+  "tue": 2,
+  "wed": 3,
+  "thu": 4,
+  "fri": 5,
+  "sat": 6,
+  "sun": 7
+);
+$day-width: 100px;
+$day-height: 100px;
+$day-margin: 1px;
+$calendar-block-width: 7 * ($day-width + 2 * $day-margin);
+$day-background-color:  #eee;
+$day-border-color: #000;
+$day-border-width: 1px;
+$day-font-size: 30px;
