@@ -10,7 +10,7 @@ $days:(
 $day-width: 100px;
 $day-height: 100px;
 $day-margin: 1px;
-$calendar-block-width: 7 * ($day-width + $day-margin);
+$calendar-block-width: 7 * ($day-width + $day-margin) - 1px;
 $day-background-color:  #eee;
 $day-border-color: #000;
 $day-border-width: 1px;
